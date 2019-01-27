@@ -1,0 +1,394 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;  
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c624028/v624028835/11cbe/VWFq-Vk6ZQo.jpg');
+  border-radius: 50%;
+  background-size: 100%;
+  background-position: center 25%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  margin-right: 34px;
+  position:relative;
+  display: inline-block;
+}
+.menu-list a, .menu-button {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.menu-button {
+  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid #2b2a2c;
+  border-radius: 50px;
+  padding: 13px 22px;
+  color: #2b2a2c;
+  cursor: pointer;
+  transition: .5s;
+}
+.menu-button:hover {
+  color: #fff;
+  background: #000;
+}
+.menu-list a::before {
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #2b2a2c;
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+.menu-list a:hover::before {
+  width: 100%;
+  transform: scaleX(1);
+}
+.hero {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background: url('https://wmpics.pics/di-LT3N.png') no-repeat right bottom;
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+  font-size: 25px;
+}
+.behance-bg {
+  background: #1869ff;
+}
+.facebook-bg {
+  background: #3a5898;
+}
+.instagram-bg{
+  background: #13578a;
+}
+.vk-bg {
+  background: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+  color: #fff;
+  transition: .5s;
+}
+.button-o {
+  background: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+.button-primary {
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.progect-card__image {
+  height: 300px;
+}
+.pc1 {
+  background: url('https://www.uxfree.com/wp-content/uploads/2017/10/free-psd-money-exchange-app-landing-page-design-v3.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc2 {
+  background: url('http://aplayweb.ru/userfiles/images/web/2feda.png') center no-repeat;
+  background-size: cover;
+}
+.pc3 {
+  background: url('http://freelance.ru/img/portfolio/thumb/00/31/A8/3254477.png') center no-repeat;
+  background-size: cover;
+}
+.pc4 {
+  background: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/111200157/original/596297da390e7a5fff1f12e20c7b86d9ea7e5c77/design-modern-and-eye-catching-landing-page.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc5 {
+  background: url('http://landings.colornew.ru/109_stars/109.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc6 {
+  background: url('https://files.fluxes.com/wp-content/uploads/2017/04/velocity6-landing.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc7 {
+  background: url('http://searchengineland.com/figz/wp-content/seloads/2011/09/cat_micro_4.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc8 {
+  background: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/2608435/original/2/create-an-awesome-landing-page-for-your-website.jpg') center no-repeat;
+  background-size: cover;
+}
+.pc9 {
+  background: url('https://apptha-blog.s3.amazonaws.com/blog/wp-content/uploads/2016/07/magnium-landing-page-wordpress-theme.jpg') center no-repeat;
+  background-size: cover;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.about__img {
+  float: left;
+  width: 540px;
+  margin-right: 61px;
+}
+.about__text {
+  padding-top: 100px;
+  text-align: justify;
+  padding-right: 15px;
+  margin-bottom: 53px;
+}
+.about__title {
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.about__dexcription {
+  text-indent: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info, .footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text {
+  display: flex;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  background-color: transparent;
+  border: 1px solid #8d8d8e;
+  border-radius: 50px;
+  padding: 8px 22px;
+  transition: .5s;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .projects {
+    padding-bottom: 50px;
+  }
+  .project-card {
+    width: 48%;
+  }
+  .about {
+    margin-top: 0;
+  }
+  .about__img {
+    display: none;
+  }
+  .about__text {
+    padding-top: 10px;
+  }
+  .about__title, .about__buttons {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 745px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .menu-list a, .menu-button {
+    font-size: 14px;
+  }
+  .menu-list a {
+    margin-right: 20px;
+  }
+  .menu-button {
+    padding: 10px 22px;
+  }
+  .hero {
+    padding-top: 60px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+  }
+  .hero-buttons .button-o {
+    margin-left: 17px;
+  }
+  .projects {
+    padding-bottom: 20px;
+  }
+  .about {
+    margin-bottom: 60px;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footer-text {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .description_small {
+    font-size: 11px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .hero {
+    padding-bottom: 240px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 640px) {
+  .hero {
+    padding-bottom: 500px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-subtitle {
+    font-size: 27px;
+  }
+  .hero-title {
+    font-size: 35px;
+  }
+}
